@@ -8,17 +8,6 @@ A customized Neovim configuration tailored for front-end development, specifical
 - Support for Vite, TypeScript, JavaScript, and Tailwind CSS
 - Custom functions and settings to streamline front-end development
 
-## Screenshots
-
-![Home Screen](screenshots/home.png)
-*Home screen of the Neovim setup.*
-
-![File Explorer](screenshots/file_explorer.png)
-*Integrated file explorer for easy navigation.*
-
-![Code Editing](screenshots/code_editing.png)
-*Enhanced code editing experience with syntax highlighting and autocompletion.*
-
 ## Prerequisites
 
 Before setting up this configuration, ensure you have the following tools installed:
