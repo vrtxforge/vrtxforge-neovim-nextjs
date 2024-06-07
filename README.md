@@ -7,6 +7,12 @@ Features
     Support for Vite, TypeScript, JavaScript, and Tailwind CSS
     Custom functions and settings to streamline front-end development
 
+Screenshots
+
+
+Home screen of the Neovim setup.
+
+
 Integrated file explorer for easy navigation.
 
 
@@ -32,17 +38,17 @@ macOS
 
     Install Neovim using Homebrew:
 
-sh
+    sh
 
-brew install neovim
+    brew install neovim
 
 Arch Linux
 
     Install Neovim using your package manager:
 
-sh
+    sh
 
-sudo pacman -S neovim
+    sudo pacman -S neovim
 
 Step 2: Backup Existing Configuration
 
