@@ -7,6 +7,7 @@ A customized Neovim configuration tailored for front-end development, specifical
 - Optimized for React and Next.js development
 - Support for Vite, TypeScript, JavaScript, and Tailwind CSS
 - Custom functions and settings to streamline front-end development
+- Included features and plugins: Spectre, Ranger, Bufferline, Telescope, and many more
 
 ## Prerequisites
 
