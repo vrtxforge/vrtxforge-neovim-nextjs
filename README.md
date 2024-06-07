@@ -54,33 +54,27 @@ Step 2: Backup Existing Configuration
 
 If you already have a Neovim configuration, back it up to avoid conflicts:
 
-sh
 
-mv ~/.config/nvim ~/.config/nvim.bak
-mv ~/.local/share/nvim ~/.local/share/nvim.bak
+
+    mv ~/.config/nvim ~/.config/nvim.bak
+    mv ~/.local/share/nvim ~/.local/share/nvim.bak
 
 Step 3: Clone the Repository
 
 Clone the vrtx-neovim-reactjs repository to your Neovim configuration directory:
 
-sh
-
-git clone https://github.com/vrtxforge/vrtx-reactjs-nvim.git ~/.config/nvim
+    git clone https://github.com/vrtxforge/vrtx-reactjs-nvim.git ~/.config/nvim
 
 Step 4: Open Neovim
 
 Open Neovim to install configurations and plugins:
 
-sh
-
-nvim
+    nvim
 
 Let Neovim install the necessary plugins and configurations. Once completed, run the following commands within Neovim to update and sync the plugins:
 
-sh
-
-:Lazy update
-:Lazy sync
+    :Lazy update
+    :Lazy sync
 
 Usage
 
