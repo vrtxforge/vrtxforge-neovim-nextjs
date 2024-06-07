@@ -7,12 +7,6 @@ Features
     Support for Vite, TypeScript, JavaScript, and Tailwind CSS
     Custom functions and settings to streamline front-end development
 
-Screenshots
-
-
-Home screen of the Neovim setup.
-
-
 Integrated file explorer for easy navigation.
 
 
