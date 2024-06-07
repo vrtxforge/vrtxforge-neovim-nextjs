@@ -9,15 +9,12 @@ A customized Neovim configuration tailored for front-end development, specifical
 - Custom functions and settings to streamline front-end development
 - Included features and plugins: Spectre, Ranger, Bufferline, Telescope, and many more
 
+## Screenshot
+
 ![Screenshot](https://res.cloudinary.com/dl5mqatis/image/upload/v1717780439/vrtxforge/neovim-front-end-setup/pjte7rpswklhud0d6dzv.png)
 
 
 ## Prerequisites
-
-Before setting up this configuration, ensure you have the following tools installed:
-
-- Git
-- (Optional) NPM
 
 **NOTE:** This setup assumes you already have Neovim installed. If you don't have Neovim installed, please install it for your operating system before proceeding.
 
