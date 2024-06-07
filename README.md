@@ -59,5 +59,3 @@ Now you are ready to start using `vrtx-neovim-reactjs` for your React and Next.j
 ## Contributing
 
 Feel free to contribute to this project by opening issues or submitting pull requests. Contributions to enhance the configuration or add new features are always welcome.
-
-## License
