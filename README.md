@@ -1,7 +1,3 @@
-Sure, here is the updated README with a note specifying that Neovim should already be installed:
-
----
-
 # vrtx-neovim-reactjs
 
 A customized Neovim configuration tailored for front-end development, specifically for React and Next.js, with support for TypeScript, JavaScript, and Tailwind CSS. This configuration is based on gh0stzk's setup with additional enhancements for a better front-end development experience.
