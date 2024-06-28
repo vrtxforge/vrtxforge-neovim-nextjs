@@ -25,8 +25,8 @@ A customized Neovim configuration tailored for front-end development, specifical
 If you already have a Neovim configuration, back it up to avoid conflicts:
 
 ```sh
-mv ~/.config/nvim ~/.config/nvim.bak
-mv ~/.local/share/nvim ~/.local/share/nvim.bak
+rm -rf ~/.config/nvim ~/.config/nvim
+rm -rf ~/.local/share/nvim ~/.local/share/nvim
 ```
 
 ### Step 2: Clone the Repository
