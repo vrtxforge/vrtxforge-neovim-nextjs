@@ -10,7 +10,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		event = "VeryLazy",
 		opts = {
-			ensure_installed = { "bashls", "lua_ls", "html", "cssls", "pylsp", "tsserver", "tailwindcss"},
+			ensure_installed = { "bashls", "lua_ls", "html", "cssls", "pylsp", "tsserver", "tailwindcss", "glslls"},
 			auto_install = true,
 		},
 	},
@@ -62,6 +62,15 @@ return {
 					vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, opts)
 					vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, opts)
 				end,
+			})
+
+      -- GLSL setup
+			lspconfig.glslls.setup({
+				capabilities = capabilities,
+				cmd = { "glslls", "--stdin" },
+				filetypes = { "glsl", "vert", "tesc", "tese", "frag", "geom", "comp" },
+				root_dir = lspconfig.util.root_pattern(".git", "compile_commands.json"),
+				single_file_support = true,
 			})
 		end,
 	},
