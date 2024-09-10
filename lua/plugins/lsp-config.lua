@@ -10,7 +10,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		event = "VeryLazy",
 		opts = {
-			ensure_installed = { "bashls", "lua_ls", "html", "cssls", "pylsp", "tsserver", "tailwindcss"},
+			ensure_installed = { "bashls", "lua_ls", "html", "cssls", "pylsp", "ts_ls", "tailwindcss"},
 			auto_install = true,
 		},
 	},
@@ -38,8 +38,22 @@ return {
 				capabilities = capabilities,
 			})
 
+
+      -- Change this to your actual download path.
+      local path_to_download = '~/omnisharp'
+      require('lspconfig').omnisharp.setup {
+        cmd = {
+          'mono',
+          '--assembly-loader=strict',
+          path_to_download .. '/omnisharp/OmniSharp.exe',
+        },
+        -- Assuming you have an on_attach function. Delete this line if you don't.
+        on_attach = on_attach,
+        use_mono = true,
+      }
+
 			-- TypeScript and JavaScript setup
-			lspconfig.tsserver.setup({
+			lspconfig.ts_ls.setup({
 				capabilities = capabilities,
 				on_attach = function(client, bufnr)
 					local opts = { noremap = true, silent = true, buffer = bufnr }
